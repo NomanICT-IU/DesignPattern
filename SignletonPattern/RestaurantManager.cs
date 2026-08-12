@@ -1,6 +1,6 @@
 ﻿namespace SignletonPattern;
 
-public class RestaurantManager
+public class RestaurantManager : IManageResturant
 {
     private static RestaurantManager _instance;
     public RestaurantManager()
